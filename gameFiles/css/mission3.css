@@ -39,7 +39,7 @@
 #quizPanel{
     position:relative;
     z-index:1003;
-    width:30%; /* تغییر از 420px به 92% برای موبایل */
+    width:50%; /* تغییر از 420px به 92% برای موبایل */
     min-width:220px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
     min-height:180px;
     padding:10px;
@@ -597,8 +597,8 @@
 
 #thanksBox{
 
-    width:min(520px,90vw);
-    max-width:520px;
+    width:min(420px,90vw);
+    max-width:420px;
 
     background:linear-gradient(
         180deg,
