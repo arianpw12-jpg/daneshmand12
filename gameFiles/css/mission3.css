@@ -39,8 +39,8 @@
 #quizPanel{
     position:relative;
     z-index:1003;
-    width:92%; /* تغییر از 420px به 92% برای موبایل */
-    max-width:420px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
+    width:۷۰%; /* تغییر از 420px به 92% برای موبایل */
+    min-width:220px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
     min-height:200px;
     padding:15px;
     border-radius:35px;
