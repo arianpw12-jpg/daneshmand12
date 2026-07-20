@@ -1,0 +1,289 @@
+/*==========================
+    Learning Notebook
+==========================*/
+
+
+#notebook{
+
+    display:none;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:
+    translate(-50%,-50%);
+
+
+    width:660px;
+    height:500px;
+
+
+    background:#fdf8e6;
+
+    border-radius:20px;
+
+    border:8px solid #8b5a2b;
+
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.35);
+
+
+    z-index:10000;
+
+    overflow:hidden;
+
+    font-family:tahoma,sans-serif;
+
+}
+
+
+/* صفحه چپ */
+
+
+#leftPage{
+
+    position:absolute;
+
+    left:0;
+
+    top:65px;
+
+    width:50%;
+
+    height:calc(100% - 65px);
+
+
+    background:#fffdf5;
+
+    border-right:2px solid #d7c8a3;
+
+    padding:30px;
+
+}
+
+
+
+
+/* صفحه راست */
+
+
+#rightPage{
+
+    position:absolute;
+
+    right:0;
+
+    width:50%;
+
+    height:calc(100% - 120px);
+
+    padding:30px;
+
+    box-sizing:border-box;
+
+    overflow-y:auto;
+
+    direction:rtl;
+
+    text-align:right;
+
+}
+
+
+
+.pageTitle{
+
+    color:#2563eb;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.pageContent{
+
+    font-size:20px;
+
+    line-height:2;
+
+    color:#333;
+
+    white-space:normal;
+
+}
+
+
+
+#notebookHeader{
+
+    height:65px;
+
+    background:#8b5a2b;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+
+
+
+#closeNotebook{
+
+    position:absolute;
+
+
+    top:10px;
+
+    right:15px;
+
+
+    width:50px;
+
+    height:50px;
+
+
+    border:none;
+
+    border-radius:50%;
+
+
+    background:#ef4444;
+
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    z-index:2;
+
+
+    transition:.25s;
+
+
+}
+
+
+
+
+#closeNotebook:hover{
+
+    transform:scale(1.1);
+
+    background:#dc2626;
+
+}
+
+
+
+
+#notebookNavigation{
+
+    position:absolute;
+
+
+    bottom:20px;
+
+    left:0;
+
+
+    width:100%;
+
+
+}
+
+
+
+
+.lessonButtons{
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    gap:20px;
+
+
+}
+
+
+
+#prevLesson,
+#nextLesson{
+
+
+    width:120px;
+
+    height:42px;
+
+
+    border:none;
+
+
+    border-radius:12px;
+
+
+    background:#4CAF50;
+
+
+    color:white;
+
+
+    font-size:18px;
+
+
+    cursor:pointer;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+}
+
+
+
+#lessonPage{
+
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:#333;
+
+}
