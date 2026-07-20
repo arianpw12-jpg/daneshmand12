@@ -40,9 +40,10 @@
     position:relative;
     z-index:1003;
    top:10px;
-    width:30%; /* تغییر از 420px به 92% برای موبایل */
+    width:40%; /* تغییر از 420px به 92% برای موبایل */
     min-width:110px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
-    min-height:140px;
+    min-height:auto;
+    height:auto;
     padding:10px;
     border-radius:35px;
     background:white;
