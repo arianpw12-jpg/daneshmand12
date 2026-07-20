@@ -40,8 +40,8 @@
     position:relative;
     z-index:1003;
     width:40%; /* تغییر از 420px به 92% برای موبایل */
-    min-width:100px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
-    min-height:auto;
+    max-width:100px; /* اضافه شد: حداکثر عرض برای دسکتاپ */
+    max-height:auto;
     height:auto;
     padding:20px;
     border-radius:35px;
@@ -600,6 +600,7 @@
 
     width:min(420px,90vw);
     max-width:420px;
+   max-height: 70px;
 
     background:linear-gradient(
         180deg,
