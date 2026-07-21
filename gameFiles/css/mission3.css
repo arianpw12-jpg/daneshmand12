@@ -15,7 +15,7 @@
     justify-content:center;
     align-items:flex-start;
 
-    padding-top:90px;
+    padding-top:0px;
 
     z-index:1000;
 
@@ -711,47 +711,64 @@
     }
 
 }
-/* ================================
-   Mobile Quiz Panel
-================================ */
-
 @media (max-width:768px){
 
     #quizPanel{
 
-        width:82vw;
-        max-width:340px;
+        width:88vw;
+        max-width:360px;
 
         min-height:auto;
-        height:auto;
 
-        padding:10px;
+        padding:12px;
 
-        border-radius:20px;
+        border-radius:22px;
 
-        transform:scale(.80);
-        transform-origin:center center;
+        max-height:80vh;
+
+        overflow-y:auto;
+
+        transform:none;
+
     }
 
-    #quizQuestion{
+    #questionNumber{
 
-        font-size:22px;
-        line-height:1.5;
+        font-size:20px;
+
     }
 
-    .answerButton{
+    #questionText{
 
-        min-height:48px;
+        margin-top:12px;
+        margin-bottom:18px;
+
         font-size:18px;
-        margin-bottom:8px;
+
+        line-height:1.6;
+
+    }
+
+    .answerItem{
+
+        margin:10px 0;
+
+        padding:10px 14px;
+
+        font-size:17px;
+
     }
 
     #answerButton{
 
-        width:170px;
-        height:44px;
-        font-size:18px;
-        margin-top:8px;
+        margin-top:18px;
+
+        width:160px;
+
+        height:42px;
+
+        font-size:17px;
+
     }
 
 }
