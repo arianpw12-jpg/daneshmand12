@@ -408,7 +408,7 @@
     backdrop-filter: blur(6px);
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     z-index: 5000;
 }
 
@@ -619,7 +619,7 @@
 
     border-radius:28px;
 
-    padding:35px;
+    padding:25px;
 
     text-align:center;
 
