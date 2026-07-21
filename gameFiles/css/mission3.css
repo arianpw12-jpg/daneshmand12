@@ -15,7 +15,7 @@
     justify-content:center;
     align-items:flex-start;
 
-    padding-top:0px;
+    padding-top:5px;
 
     z-index:1000;
 
@@ -711,64 +711,4 @@
     }
 
 }
-@media (max-width:768px){
 
-    #quizPanel{
-
-        width:88vw;
-        max-width:360px;
-
-        min-height:auto;
-
-        padding:12px;
-
-        border-radius:22px;
-
-        max-height:80vh;
-
-        overflow-y:auto;
-
-        transform:none;
-
-    }
-
-    #questionNumber{
-
-        font-size:20px;
-
-    }
-
-    #questionText{
-
-        margin-top:12px;
-        margin-bottom:18px;
-
-        font-size:18px;
-
-        line-height:1.6;
-
-    }
-
-    .answerItem{
-
-        margin:10px 0;
-
-        padding:10px 14px;
-
-        font-size:17px;
-
-    }
-
-    #answerButton{
-
-        margin-top:18px;
-
-        width:160px;
-
-        height:42px;
-
-        font-size:17px;
-
-    }
-
-}
