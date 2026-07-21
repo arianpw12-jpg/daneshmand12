@@ -606,8 +606,10 @@
 
 #thanksBox{
 
-    width:min(520px,90vw);
-    max-width:520px;
+    width:min(460px,92vw);
+   max-height:85vh;
+
+   overflow-y:auto;
 
     background:linear-gradient(
         180deg,
@@ -619,7 +621,7 @@
 
     border-radius:28px;
 
-    padding:35px;
+    padding:22px;
 
     text-align:center;
 
