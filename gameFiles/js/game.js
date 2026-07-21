@@ -269,7 +269,7 @@ function resizeGame(){
 
 
     const baseWidth = 1200;
-    const baseHeight = 630;
+    const baseHeight = 650;
 
 
     const w = window.innerWidth;
@@ -283,10 +283,15 @@ function resizeGame(){
     let scale = Math.min(scaleX, scaleY);
 
 
-    // کمی فاصله امن برای موبایل
-    if(w < 900){
+    // تنظیم مخصوص موبایل
+if (w < 900) {
 
-        scale *= 0.92;
+    // اگر ارتفاع گوشی کم بود، بیشتر کوچک کن
+    if (h < 700) {
+        scale *= 0.78;
+    } else {
+        scale *= 0.85;
+    }
 
     }
 
