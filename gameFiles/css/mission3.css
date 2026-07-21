@@ -608,6 +608,11 @@
 
     width:min(520px,90vw);
     max-width:520px;
+   max-height:80vh;
+
+   overflow-y:auto;
+
+  box-sizing:border-box;
 
     background:linear-gradient(
         180deg,
@@ -619,7 +624,7 @@
 
     border-radius:28px;
 
-    padding:25px;
+    padding:18px;
 
     text-align:center;
 
@@ -671,7 +676,7 @@
 
 #closeThanksButton{
 
-    margin-top:30px;
+    margin-top:20px;
 
     width:200px;
 
